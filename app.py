@@ -13,7 +13,7 @@ st.title("Image to Text Application")
 user_input = st.text_input("Input Prompt:")
 
 uploaded_file = st.file_uploader("Uploade the Image....",
-                                 type=['jpg','jpeg','png'])
+                                 type=['jpg','jpeg','png','pdf'])
 
 # Display the image on the page
 from PIL import Image
